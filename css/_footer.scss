@@ -1,0 +1,30 @@
+footer{
+    
+    justify-content: $centrar;
+    margin-top: 20px;
+    .socialFooter{
+        justify-content: $centrar;
+        display: flex;
+      
+        .imageFooter{
+            height: 30px;
+            width: 30px;
+            margin-right: 20px;
+            .textoFooter{ 
+                text-decoration-line:underline overline;
+                font-weight: bold;
+                padding: 10px 0px 20px 0px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+.footer__div--color{
+    color: $colorFondoVarios;
+}
+.footer__div{
+    justify-content: $centrar;
+    background-color:$colorFondoFoot;
+    width: auto;  
+
+}
