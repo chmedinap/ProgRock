@@ -27,6 +27,7 @@ Para este repositorio se hicieron tres commit principales:
 
 Se analiza las paginas con Lighthouse y se hacen cambios de:
 
+- Cambio de estilo en carruseles index.
 - Optimización de tamaño de imágenes.
 - Nombres en iframe.
 - Nombres a los links.
