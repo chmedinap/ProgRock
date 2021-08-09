@@ -64,9 +64,9 @@
                     
                     <!-- primer dropdopwn-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Qué es el Rock Progresivo?
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Qué es el Rock Progresivo?
                         </a>
-                        <ul class="dropdown-menu ul__submenu--color" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu ul__submenu--color" aria-labelledby="navbarDropdown1">
                             <li>
                                 <a class="dropdown-item" href="pages/historia.html">Historia del genero</a>
                                 </li>
@@ -87,9 +87,9 @@
 
                         <!-- segundo dropdopwn-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bandas
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bandas
                         </a>
-                        <ul class="dropdown-menu ul__submenu--color" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu ul__submenu--color" aria-labelledby="navbarDropdown2">
                             <li>
                                 <a class="dropdown-item" href="pages/bandas-fundadoras.html">Fundadoras</a>
                             </li>
@@ -116,59 +116,58 @@
 
     <!-- INICIA SLIDER-->
     <div class="container">
-        <div id="sliderIndex" class="carousel slide col-md-12" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="StevenWilson"></button>
-              <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="1" aria-label="Genesis"></button>
-              <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="2" aria-label="Opeth"></button>
-              <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="3" aria-label="Opeth"></button>
-            </div>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="multimedia/bannerhome/wilsonbanner.jpg" class="img-fluid mx-auto d-block w-60" alt="Steven Wilson" width="1000" height="520">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4>Steven Wilson</h4>
-                        <p>Creador de Porcupine Tree.</p>
-                    </div>
+        <section class="home"> 
+            <div id="sliderIndex" class="carousel slide col-md-12" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Steven Wilson"></button>
+                    <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="1" aria-label="Genesis"></button>
+                    <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="2" aria-label="Opeth"></button>
+                    <button type="button" data-bs-target="#sliderIndex" data-bs-slide-to="3" aria-label="Rush"></button>
                 </div>
-              
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="multimedia/bannerhome/genesisbanner.jpeg" class="img-fluid mx-auto d-block w-60 " alt="Genesis" width="1000" height="520">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4>Genesis</h4>
-                        <p>Ingleses pioneros.</p>
-                    </div>
+                <div class="carousel-inner">
+                        <div class="carousel-item active img-fluid" style="background-image: url('multimedia/bannerhome/wilsonbanner.jpg')">
+                            <div class="container">
+                                <h2>Steven Wilson</h2>
+                                <p>Creador de Porcupine Tree.</p>
+                            </div>
+                        </div>
+            
+                        <div class="carousel-item img-fluid" style="background-image: url('multimedia/bannerhome/genesisbanner.jpeg')">
+                            <div class="container">
+                                <h2>Genesis</h2>
+                                <p>Ingleses pioneros.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item img-fluid" style="background-image: url('multimedia/bannerhome/opethbanner.jpg')">
+                            <div class="container">
+                                <h2>Opeth</h2>
+                                <p>Combinemos black metal y progresivo</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item img-fluid" style="background-image: url('multimedia/bannerhome/rushbanner.jpg')">
+                            <div class="container">
+                                <h2>Rush</h2>
+                                <p>Progresivo y sci fi</p>
+                            </div>
+                        </div>
                 </div>
 
-                <div class="carousel-item">
-                    <img src="multimedia/bannerhome/opethbanner.jpg" class="img-fluid mx-auto d-block w-60" alt="Opeth" width="1000" height="520">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4>Opeth</h4>
-                        <p>Combinemos black metal y progresivo</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="multimedia/bannerhome/rushbanner.jpg" class="img-fluid mx-auto d-block w-60" alt="Rush" width="1000" height="520">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h4 >Rush</h4>
-                        <p>Progresivo y sci fi</p>
-                    </div>
-                </div>
-            </div>
-
-        
-            <button class="carousel-control-prev" type="button" data-bs-target="#sliderIndex" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sliderIndex" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
+
                 <button class="carousel-control-next" type="button" data-bs-target="#sliderIndex" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
+                </button>
+            </div>
+        </section>
     </div>
+    <!--fin carrusel-->
+   
     <!-- FIN SLIDER-->
 
     <!-- INICIA TEXTO Y SPOTIFY-->
@@ -189,7 +188,7 @@
             </div>
             
             <div class="col-xs-12 col-sm-4 col-md-6">
-                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0uqkwkR49kK" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe title="Spotify lista" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0uqkwkR49kK" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
     </div>
@@ -201,51 +200,51 @@
     <section class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=auLBLk4ibAk" target="_blank">
-                    <img src="multimedia/logos/rush-logo.png" alt="rushLogo"class="img-fluid imageHome imageHomeTrans">
+                <a href="https://www.youtube.com/watch?v=auLBLk4ibAk" aria-label="Video_Rush" target="_blank" rel="noopener">
+                    <img src="multimedia/logos/rush-logo.png" alt="rushLogo"class="img-fluid imageHome imageHomeTrans" rel="noreferrer">
                 </a>
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=SVOuYquXuuc" target="_blank">
+                <a href="https://www.youtube.com/watch?v=SVOuYquXuuc" aria-label="Video_Yes" target="_blank" rel="noopener">
                     <img src="multimedia/logos/yes-logo.png" alt="yesLogo" class="img-fluid imageHome imageHomeTrans"">
                 </a>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=Yq7FKO5DlV0" target="_blank">
+                <a href="https://www.youtube.com/watch?v=Yq7FKO5DlV0" aria-label="Video_Gen" target="_blank" rel="noopener">
                     <img src="multimedia/logos/genesis-logo.png" alt="genesisLogo" class="imageHome imageHomeTrans img-fluid">
                 </a>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=YR5ApYxkU-U" target="_blank">
+                <a href="https://www.youtube.com/watch?v=YR5ApYxkU-U" aria-label="Video_pink" target="_blank" rel="noopener">
                     <img src="multimedia/logos/pink-logo.png" alt="pinkLogo" class="img-fluid imageHome imageHomeTrans">
                 </a>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=DrDM6V08wcE" target="_blank">
+                <a href="https://www.youtube.com/watch?v=DrDM6V08wcE" aria-label="Video_devin" target="_blank" rel="noopener">
                     <img src="multimedia/logos/devin-logo.png" alt="devinLogo" class="imageHome imageHomeTrans">
                 </a>
                 
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=BAlDEcQMLio" target="_blank">
+                <a href="https://www.youtube.com/watch?v=BAlDEcQMLio" aria-label="Video_opeth" target="_blank" rel="noopener">
                     <img src="multimedia/logos/opeth-logo.png" alt="opethLogo" class="imageHome imageHomeTrans">
                 </a>
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=-ygv3BBqv3U" target="_blank">
+                <a href="https://www.youtube.com/watch?v=-ygv3BBqv3U" aria-label="Video_river" target="_blank" rel="noopener">
                     <img src="multimedia/logos/riverside_Logo.png" alt="riverLogo" class="imageHome imageHomeTrans">
                 </a>
                 
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="https://www.youtube.com/watch?v=m_j8JhMtRZo" target="_blank">
+                <a href="https://www.youtube.com/watch?v=m_j8JhMtRZo" aria-label="Video_Gojira" target="_blank" rel="noopener">
                     <img src="multimedia/logos/gojira_logo.png" alt="gojiraLogo" class="imageHome imageHomeTrans">
                 </a>
                 
@@ -260,19 +259,19 @@
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
             <section class="socialFooter footer__div--color mb-4">
-                <a href="https://www.youtube.com/" target="_blank">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Youtube">
                     <img src="multimedia/ico/youtube.png" alt="ytLogo" class="imageFooter">
                 </a>
-                <a href="https://www.twitter.com/" target="_blank">
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">
                     <img src="multimedia/ico/twitter.png" alt="twLogo" class="imageFooter">
                 </a>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
                     <img src="multimedia/ico/facebook.png" alt="fbLogo" class="imageFooter">
                 </a>
-                <a href="https://www.spotify.com/" target="_blank">
+                <a href="https://www.spotify.com/" target="_blank" rel="noopener" aria-label="Spotify">
                     <img src="multimedia/ico/spotify.png" alt="spLogo" class="imageFooter">
                 </a>
-                <a href="https://www.discord.com/" target="_blank">
+                <a href="https://www.discord.com/" target="_blank" rel="noopener" aria-label="Discord">
                     <img src="multimedia/ico/discord.png" alt="dcLogo" class="imageFooter">
                 </a>
             </section>
