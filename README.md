@@ -31,5 +31,5 @@ Se analiza las paginas con Lighthouse y se hacen cambios de:
 - Optimización de tamaño de imágenes.
 - Nombres en iframe.
 - Nombres a los links.
-- Agregar noopener a links
+- Agregar noopener a links.
 - Corecciones en medidas de columnas.
