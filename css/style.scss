@@ -444,7 +444,7 @@ h5{
 /* animacion y sombras 404*/
 .eror404 {
   color: #fff;
-  font-size: 10em;
+  font-size: 8em;
   font-weight: bold;
   text-shadow: 
     0 1px 0 #ccc, 
@@ -463,9 +463,10 @@ h5{
 }
 #imagen404 {
   position:relative;
-  height:350px;
-  width:350px;
+  height:400px;
+  width:400px;
   margin:0 auto;
+  border-radius: 50%;
 }
 #imagen404 img {
   position:absolute;
@@ -474,7 +475,9 @@ h5{
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  border-radius: 50%;
 }
 #imagen404 img.top:hover {
   opacity:0;
+  border-radius: 50%;
 }
