@@ -33,3 +33,6 @@ Se analiza las paginas con Lighthouse y se hacen cambios de:
 - Nombres a los links.
 - Agregar noopener a links.
 - Corecciones en medidas de columnas.
+
+<h2> Documentación v1.0 (Desafio 16) </h2>
+- Corecciones en medidas de columnas.
